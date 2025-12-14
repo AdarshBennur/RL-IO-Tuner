@@ -17,7 +17,6 @@ from benchmarks.run_fio import run_fio_benchmark, get_available_workloads
 
 def run_baseline_experiment(
     device: str = "sda",
-    workload_name: str = "rand_read",
     runtime: int = 30,
     output_dir: str = "logs/baseline"
 ):
@@ -26,7 +25,6 @@ def run_baseline_experiment(
     
     Args:
         device: Target block device
-        workload_name: FIO workload name
         runtime: Benchmark runtime per configuration
         output_dir: Output directory for results
     """
@@ -34,12 +32,12 @@ def run_baseline_experiment(
     print("BASELINE EXPERIMENT: Static Kernel Parameters")
     print("=" * 70)
     print(f"Device: {device}")
-    print(f"Workload: {workload_name}")
     print(f"Runtime: {runtime}s per configuration")
     print()
     
-    # Get workload path
+    # Use default random read workload for baseline
     workloads = get_available_workloads()
+    workload_name = "rand_read"
     if workload_name not in workloads:
         print(f"Error: Workload '{workload_name}' not found")
         print(f"Available: {list(workloads.keys())}")
@@ -144,7 +142,6 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Run baseline experiment")
     parser.add_argument('--device', type=str, default='sda', help='Block device name')
-    parser.add_argument('--workload', type=str, default='rand_read', help='FIO workload name')
     parser.add_argument('--runtime', type=int, default=30, help='Runtime per config (seconds)')
     parser.add_argument('--output-dir', type=str, default='logs/baseline', help='Output directory')
     
@@ -152,7 +149,6 @@ if __name__ == "__main__":
     
     run_baseline_experiment(
         device=args.device,
-        workload=args.workload,
         runtime=args.runtime,
         output_dir=args.output_dir
     )
