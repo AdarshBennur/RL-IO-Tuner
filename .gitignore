@@ -11,13 +11,9 @@ dist/
 build/
 
 # Logs
-logs/
 *.log
 
-# Results
-results/models/*.pth
-results/plots/*.png
-results/tables/*.csv
+# Results (tracking models and plots for academic project)
 
 # OS
 .DS_Store

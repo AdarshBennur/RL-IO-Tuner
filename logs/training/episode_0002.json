@@ -1,0 +1,102 @@
+[
+  {
+    "step": 1,
+    "episode": 2,
+    "action": 4,
+    "readahead_kb": 2048,
+    "metrics": {
+      "read_iops": 67910.969634,
+      "write_iops": 0.0,
+      "read_throughput_mb": 265.2763671875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 3.767420931923,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.244608,
+      "p95_read_latency_ms": 8.454144,
+      "p99_read_latency_ms": 20.840448,
+      "utilization": 41.969166,
+      "queue_depth": 0.1
+    },
+    "reward": 2.558578148576925
+  },
+  {
+    "step": 2,
+    "episode": 2,
+    "action": 1,
+    "readahead_kb": 256,
+    "metrics": {
+      "read_iops": 108341.588614,
+      "write_iops": 0.0,
+      "read_throughput_mb": 423.208984375,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.361866342736,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.056192,
+      "p95_read_latency_ms": 4.816896,
+      "p99_read_latency_ms": 6.586368,
+      "utilization": 55.040834,
+      "queue_depth": 0.1
+    },
+    "reward": 4.1730431851816
+  },
+  {
+    "step": 3,
+    "episode": 2,
+    "action": 3,
+    "readahead_kb": 1024,
+    "metrics": {
+      "read_iops": 104086.794214,
+      "write_iops": 0.0,
+      "read_throughput_mb": 406.5888671875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.45849738459,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.146304,
+      "p95_read_latency_ms": 5.013504,
+      "p99_read_latency_ms": 6.71744,
+      "utilization": 57.807852000000004,
+      "queue_depth": 0.1
+    },
+    "reward": 4.00442623726025
+  },
+  {
+    "step": 4,
+    "episode": 2,
+    "action": 1,
+    "readahead_kb": 256,
+    "metrics": {
+      "read_iops": 98097.463418,
+      "write_iops": 0.0,
+      "read_throughput_mb": 383.1923828125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.60862040839,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 1.957888,
+      "p95_read_latency_ms": 4.882432,
+      "p99_read_latency_ms": 7.307264,
+      "utilization": 51.3775,
+      "queue_depth": 0.1
+    },
+    "reward": 3.76670831791525
+  },
+  {
+    "step": 5,
+    "episode": 2,
+    "action": 0,
+    "readahead_kb": 128,
+    "metrics": {
+      "read_iops": 111885.270491,
+      "write_iops": 0.0,
+      "read_throughput_mb": 437.0517578125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.287061319297,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.6825,
+      "queue_depth": 0.1
+    },
+    "reward": 4.313341045142574
+  }
+]
