@@ -411,26 +411,11 @@ If you use this framework in academic research, please cite:
 ```
 @software{rl_io_tuner,
   title={RL-io-Tuner: Dynamic Linux Storage Optimization Using Deep Reinforcement Learning},
-  author={Your Name},
+  author={Adarsh Bennur},
   year={2025},
-  url={https://github.com/your-repo/RL-io-Tuner}
+  url={https://github.com/AdarshBennur/RL-io-Tuner}
 }
 ```
-
----
-
-## License
-
-[Add your license here]
-
----
-
-## Contact
-
-For questions or collaboration:
-
-- **Email:** <your.email@domain.com>
-- **Issues:** <https://github.com/your-repo/RL-io-Tuner/issues>
 
 ---
 
