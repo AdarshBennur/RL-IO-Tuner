@@ -72,7 +72,7 @@ Establish performance baseline with static kernel parameters:
 
 ```bash
 # Replace 'vda' with your actual device name
-sudo ./venv/bin/python3 experiments/baseline.py \
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 experiments/baseline.py \
     --device vda \
     --workload rand_read \
     --runtime 30
@@ -88,8 +88,8 @@ Train the DQN agent to learn optimal I/O parameters:
 
 ```bash
 # Replace 'vda' with your actual device name
-# Use venv's python3 to ensure all modules are found
-sudo ./venv/bin/python3 scripts/train.py \
+# Set PYTHONPATH to ensure modules are found with sudo
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py \
     --device vda \
     --workload rand_read \
     --episodes 50 \
@@ -115,7 +115,7 @@ Test the trained agent's performance:
 
 ```bash
 # Replace 'vda' with your actual device name
-sudo ./venv/bin/python3 scripts/evaluate.py \
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/evaluate.py \
     --model results/models/dqn_agent.pth \
     --device vda \
     --workload rand_read \
@@ -171,13 +171,13 @@ You can experiment with different FIO workloads:
 
 ```bash
 # Sequential Read
-sudo ./venv/bin/python3 scripts/train.py --device vda --workload seq_read --episodes 50 --steps 20 --fio-runtime 10
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py --device vda --workload seq_read --episodes 50 --steps 20 --fio-runtime 10
 
 # Random Write
-sudo ./venv/bin/python3 scripts/train.py --device vda --workload rand_write --episodes 50 --steps 20 --fio-runtime 10
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py --device vda --workload rand_write --episodes 50 --steps 20 --fio-runtime 10
 
 # Sequential Write
-sudo ./venv/bin/python3 scripts/train.py --device vda --workload seq_write --episodes 50 --steps 20 --fio-runtime 10
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py --device vda --workload seq_write --episodes 50 --steps 20 --fio-runtime 10
 ```
 
 **Available workloads:**
@@ -195,13 +195,13 @@ For a quick test run with shorter training:
 
 ```bash
 # Quick baseline (5-minute runtime)
-sudo ./venv/bin/python3 experiments/baseline.py --device vda --workload rand_read --runtime 5
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 experiments/baseline.py --device vda --workload rand_read --runtime 5
 
 # Quick training (10 episodes, 5 steps, 5s FIO)
-sudo ./venv/bin/python3 scripts/train.py --device vda --workload rand_read --episodes 10 --steps 5 --fio-runtime 5
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py --device vda --workload rand_read --episodes 10 --steps 5 --fio-runtime 5
 
 # Quick evaluation
-sudo ./venv/bin/python3 scripts/evaluate.py --model results/models/dqn_agent.pth --device vda --workload rand_read --episodes 3
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/evaluate.py --model results/models/dqn_agent.pth --device vda --workload rand_read --episodes 3
 ```
 
 ---
@@ -211,8 +211,8 @@ sudo ./venv/bin/python3 scripts/evaluate.py --model results/models/dqn_agent.pth
 ### Permission Errors
 
 ```bash
-# Ensure you're using sudo AND venv's python for kernel parameter modifications
-sudo ./venv/bin/python3 scripts/train.py ...
+# Ensure you're using sudo with PYTHONPATH set for kernel parameter modifications
+sudo PYTHONPATH=/home/adarsh/RL-IO-Tuner ./venv/bin/python3 scripts/train.py ...
 ```
 
 ### Device Not Found
