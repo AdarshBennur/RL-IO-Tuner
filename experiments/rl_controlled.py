@@ -122,8 +122,9 @@ def run_rl_experiment(
             step += 1
             
             # Log step
+            loss_str = f"{loss:.4f}" if loss is not None else "N/A"
             print(f"  Step {step}: action={action} (ra={env.READAHEAD_VALUES[action]}), "
-                  f"reward={reward:.3f}, loss={loss:.4f if loss else 0:.4f}")
+                  f"reward={reward:.3f}, loss={loss_str}")
             
             if done:
                 break
