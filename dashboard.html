@@ -37,18 +37,27 @@
             padding: 20px 32px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
+            /* Centered */
+            position: relative;
+            /* For status positioning */
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+            z-index: 10;
+        }
+
+        .brand {
+            text-align: center;
         }
 
         .brand h1 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
+            /* Slightly smaller for long title */
             font-weight: 800;
             background: linear-gradient(135deg, #0f172a 0%, #475569 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.01em;
             margin-bottom: 2px;
         }
 
@@ -59,6 +68,8 @@
         }
 
         .header-status {
+            position: absolute;
+            right: 32px;
             display: flex;
             align-items: center;
             gap: 8px;
@@ -419,8 +430,8 @@
         <!-- Header -->
         <header class="header">
             <div class="brand">
-                <h1>RL-IO-Tuner</h1>
-                <p>Deep Reinforcement Learning Storage Optimizer</p>
+                <h1>Reinforcement Learning Based Linux Storage Optimizer</h1>
+                <p>Autonomous I/O Tuning System</p>
             </div>
             <div class="header-status">
                 <div class="status-dot"></div>
