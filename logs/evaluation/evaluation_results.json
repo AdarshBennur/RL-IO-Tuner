@@ -1,0 +1,15 @@
+{
+  "model_path": "results/models/dqn_agent.pth",
+  "device": "vda",
+  "workload": "rand_read",
+  "num_episodes": 5,
+  "episode_rewards": [
+    79.29008036215987,
+    83.62773943558854,
+    82.25418631677292,
+    79.70684276182777,
+    85.07492653076194
+  ],
+  "mean_reward": 81.99075508142221,
+  "std_reward": 2.225808920070367
+}

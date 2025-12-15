@@ -1,0 +1,402 @@
+[
+  {
+    "step": 1,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111472.501833,
+      "write_iops": 0.0,
+      "read_throughput_mb": 435.439453125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.295595451304,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.784774,
+      "queue_depth": 0.1
+    },
+    "reward": 4.2970046449674
+  },
+  {
+    "step": 2,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111413.319556,
+      "write_iops": 0.0,
+      "read_throughput_mb": 435.2080078125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.2968688101590002,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.590834,
+      "queue_depth": 0.1
+    },
+    "reward": 4.2946583578710245
+  },
+  {
+    "step": 3,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 65280.323989,
+      "write_iops": 0.0,
+      "read_throughput_mb": 255.0009765625,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 3.920419319365,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.113536,
+      "p95_read_latency_ms": 6.586368,
+      "p99_read_latency_ms": 21.364736,
+      "utilization": 43.2825,
+      "queue_depth": 0.1
+    },
+    "reward": 2.451999282640875
+  },
+  {
+    "step": 4,
+    "episode": 5,
+    "action": 1,
+    "readahead_kb": 256,
+    "metrics": {
+      "read_iops": 111289.857005,
+      "write_iops": 0.0,
+      "read_throughput_mb": 434.7255859375,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.299244597471,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 57.426666000000004,
+      "queue_depth": 0.1
+    },
+    "reward": 4.289774744438225
+  },
+  {
+    "step": 5,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111974.167528,
+      "write_iops": 0.0,
+      "read_throughput_mb": 437.3984375,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.285315369461,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.858333,
+      "queue_depth": 0.1
+    },
+    "reward": 4.316851490763475
+  },
+  {
+    "step": 6,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 110671.577614,
+      "write_iops": 0.0,
+      "read_throughput_mb": 432.310546875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.312296663743,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 57.525,
+      "queue_depth": 0.1
+    },
+    "reward": 4.2652980521564245
+  },
+  {
+    "step": 7,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111669.11103,
+      "write_iops": 0.0,
+      "read_throughput_mb": 436.20703125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.291526152768,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.950834,
+      "queue_depth": 0.1
+    },
+    "reward": 4.3047821586808
+  },
+  {
+    "step": 8,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 110738.808706,
+      "write_iops": 0.0,
+      "read_throughput_mb": 432.5732421875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.310710239926,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.8,
+      "queue_depth": 0.1
+    },
+    "reward": 4.26796466587685
+  },
+  {
+    "step": 9,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111325.844944,
+      "write_iops": 0.0,
+      "read_throughput_mb": 434.8662109375,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.2986590828709996,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.758108,
+      "queue_depth": 0.1
+    },
+    "reward": 4.291195632303225
+  },
+  {
+    "step": 10,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111034.397707,
+      "write_iops": 0.0,
+      "read_throughput_mb": 433.7275390625,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.304649886909,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 57.18226,
+      "queue_depth": 0.1
+    },
+    "reward": 4.279659143452275
+  },
+  {
+    "step": 11,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 138714.75235,
+      "write_iops": 0.0,
+      "read_throughput_mb": 541.8544921875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 1.8446492585,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 1.548288,
+      "p95_read_latency_ms": 4.046848,
+      "p99_read_latency_ms": 5.668864,
+      "utilization": 57.159761,
+      "queue_depth": 0.1
+    },
+    "reward": 5.3724286904125
+  },
+  {
+    "step": 12,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111757.841405,
+      "write_iops": 0.0,
+      "read_throughput_mb": 436.5537109375,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.289720358007,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.803334,
+      "queue_depth": 0.1
+    },
+    "reward": 4.308294100424825
+  },
+  {
+    "step": 13,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111671.488567,
+      "write_iops": 0.0,
+      "read_throughput_mb": 436.2158203125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.2914517745909997,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.714888,
+      "queue_depth": 0.1
+    },
+    "reward": 4.304871908760226
+  },
+  {
+    "step": 14,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111559.648012,
+      "write_iops": 0.0,
+      "read_throughput_mb": 435.779296875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.293867252124,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.119167,
+      "queue_depth": 0.1
+    },
+    "reward": 4.3004462874469
+  },
+  {
+    "step": 15,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111123.529216,
+      "write_iops": 0.0,
+      "read_throughput_mb": 434.076171875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.3027866685449996,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.855833,
+      "queue_depth": 0.1
+    },
+    "reward": 4.283192052036375
+  },
+  {
+    "step": 16,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111266.557781,
+      "write_iops": 0.0,
+      "read_throughput_mb": 434.634765625,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.299787589016,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.984167,
+      "queue_depth": 0.1
+    },
+    "reward": 4.2888529665246
+  },
+  {
+    "step": 17,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111008.299723,
+      "write_iops": 0.0,
+      "read_throughput_mb": 433.6259765625,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.3052261326609997,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 56.862500000000004,
+      "queue_depth": 0.1
+    },
+    "reward": 4.278629112308475
+  },
+  {
+    "step": 18,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111393.273782,
+      "write_iops": 0.0,
+      "read_throughput_mb": 435.1298828125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.297244509534,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.846438,
+      "queue_depth": 0.1
+    },
+    "reward": 4.29386771538665
+  },
+  {
+    "step": 19,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111102.129929,
+      "write_iops": 0.0,
+      "read_throughput_mb": 433.9921875,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.30315344306,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.039808,
+      "p95_read_latency_ms": 4.685824,
+      "p99_read_latency_ms": 6.193152,
+      "utilization": 57.015834000000005,
+      "queue_depth": 0.1
+    },
+    "reward": 4.2823430389235
+  },
+  {
+    "step": 20,
+    "episode": 5,
+    "action": 5,
+    "readahead_kb": 4096,
+    "metrics": {
+      "read_iops": 111619.446018,
+      "write_iops": 0.0,
+      "read_throughput_mb": 436.0126953125,
+      "write_throughput_mb": 0.0,
+      "avg_read_latency_ms": 2.292578709508,
+      "avg_write_latency_ms": 0.0,
+      "p50_read_latency_ms": 2.023424,
+      "p95_read_latency_ms": 4.620288,
+      "p99_read_latency_ms": 6.127616,
+      "utilization": 56.251667,
+      "queue_depth": 0.1
+    },
+    "reward": 4.3028124853873
+  }
+]
